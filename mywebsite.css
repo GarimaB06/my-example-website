@@ -1,0 +1,151 @@
+
+@@font-face {
+  font-family: 'cornerstone';
+  src: url('cssfonts/Cornerstone.ttf') format('woff');
+}
+
+/*@@font-face {
+  font-family: 'OpenSansCondensed';
+  src: url('cssfonts/OpenSansCondensed-Light.ttf') format('woff');
+}*/
+
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: white;
+align-items: center;
+}
+
+header h1{
+  padding-top: 20px;
+}
+
+.site-nav li{
+  list-style: none;
+
+}
+
+.site-nav a{
+  color: black;
+  text-decoration: none;
+  font-family: cornerstone;
+  padding: 10px 20px;
+}
+
+.site-nav a:hover{
+  color: #ff9203;
+}
+
+nav ul{
+  display: flex;
+}
+
+h1{
+color: black;
+font-size: 120%;
+padding-top: 15px;
+padding-bottom: 10px;
+padding-left: 30px;
+margin-top: 0;
+margin-left: 0;
+font-family: cornerstone;
+}
+
+h2{
+color: white;
+text-align: center;
+font-family: cornerstone;
+/*
+border: 2px solid white;
+box-shadow: 10px 2px 5px #000;
+padding: 50px 55px;
+transition: all 0.2s ease-in-out;
+*/
+}
+/*slideshow styles*/
+.slide{
+  width: 100%;
+  position: relative;
+}
+
+.slide-text{
+  position:absolute;
+  top:20%;
+  font-family: cornerstone;
+  font-size: xs;
+  padding-left: 50px;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  color: white;
+  background-color: rgba(0,0,0,.7);
+}
+
+.slide-text:hover{
+  color: #ff9203;
+}
+
+/*Previous and Next buttons*/
+.cycle-prev{
+  position: absolute;
+  top:0;
+  background-color: rgba(0,0,0,.35);
+  color:#FFF;
+  padding: 1px 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 130%;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity .7s;
+}
+
+.cycle-next{
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,.35);
+  color:#FFF;
+  padding: 1px 10px;
+  display: block;
+  cursor: pointer;
+  font-size: 130%;
+  z-index: 1000;
+  right:0;
+  opacity: 0;
+  transition: opacity .7s;
+}
+
+.cycle-slideshow:hover .cycle-prev{
+  opacity: 1;
+}
+
+.cycle-slideshow:hover .cycle-next{
+  opacity: 1;
+}
+
+
+
+
+/*
+h2:hover {
+  border-color: yellow;
+  color: yellow;
+  transform: rotate(360deg);
+}*/
+
+img{
+box-sizing: border-box;
+width: 100%;
+}
+
+/*.container {
+  background-image: url('images/Marigold4.jpeg');
+  height: 800px;
+  background-size: cover;
+  width: 100%;
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}*/

@@ -1,0 +1,96 @@
+header{
+
+  display: flex;
+width: 100%;
+justify-content: space-between;
+background-color: #ff9d85;
+align-items: center;
+background: linear-gradient(#ff9d85, white);
+padding: 0 0 55px 0;
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+.site-nav li{
+  list-style: none;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.site-nav a{
+  color: white;
+  font-family: 'Varta', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.site-nav a:hover{
+    color: #f58356;
+    transition: all .2s ease-in-out;
+  }
+
+.thumbnails {
+padding-top: 150px;
+width: 100;
+margin-left: 90px;
+}
+
+.thumbnails > div {
+  display: flex;
+}
+
+.thumbnails a{
+  float: left;
+  margin-top: 15px;
+}
+
+.thumbnails img{
+  display: block;
+  transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img{
+  opacity: .6;
+  transform: scale(.92);
+}
+
+.thumbnails img:hover{
+  opacity: 1;
+  transform: scale(1) rotate(2deg);
+  box-shadow: 0 0 7px rgba(0,0,0,.5)
+}
+
+.thumbnails .firstrow a{
+  width: 33%;
+  padding-bottom: 15px;
+}
+
+.thumbnails .secondrow a{
+  width:50%;
+  padding-bottom: 15px;
+}
+
+.thumbnails .thirdrow a{
+  width: 50%;
+  padding-bottom: 15px;
+
+}
+
+.thumbnails .fourthrow a{
+  width:50%;
+  padding-bottom: 15px;
+
+}
+
+.thumbnails .fifthrow a{
+  width:50%;
+  padding-bottom: 15px;
+
+}
